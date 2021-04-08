@@ -1,0 +1,96 @@
+html
+{
+  background-color: #301b3f;
+  color : gold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table
+{
+    width: 100%;
+    text-align: center;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+.Education a
+{
+  color: rgb(218, 195, 233);
+}
+.Education a:hover {
+    color: aquamarine;
+  }
+
+/* .Education a:visited {
+  color: green;
+} */
+
+th, td 
+{
+    font-size: 17px;
+    border-bottom: 1px solid rgb(82, 72, 72);
+    border: 1px solid white;
+    padding: 10px;
+}
+
+*{box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:whitesmoke;
+}
+
+ul.navigation{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border: 1px solid white;
+  
+  }
+
+  #aarvee
+  {
+    padding-right: 10px;
+  }
+  ul.navigation li{
+      float: left;
+      border: 1px solid white;
+      
+  }
+  ul.navigation li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  .navigation a:hover {
+      background-color: #111;
+  }
+
+.Education
+{
+  border-collapse: collapse;
+}
+
+.skills {
+  border: 1px solid whitesmoke;
+
+}
+.Python{width: 90%; background-color: #4CAF50;}
+.Java {width: 80%; background-color: #2196F3;}
+.SQL{width: 65%; background-color: #f44336;}
+.HTML_CSS{width: 70%; background-color: #cebf3a;}
+.cloudDevOps{width: 65%; background-color: #f44336;}

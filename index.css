@@ -1,0 +1,77 @@
+html{
+    background-color: #301b3f;
+    color : gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    /* margin: auto; */
+}
+
+body {
+    background-image: url('./images/photo-1529101091764-c3526daf38fe.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+header{
+  padding: 20px;
+  text-align: center;
+  background: rgb(48, 27, 63,0.90);
+  font-size: 30px;
+
+  border: 1px solid gold;
+
+}
+
+.dp{
+  border-style: solid;
+  border-spacing: 5px;
+  max-width: 100%;
+  /* border-radius: 50%; */
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.navigation{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border: 1px solid white;
+}
+
+ul.navigation li{
+    float: left;
+    border: 1px solid white;
+}
+ul.navigation li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+  .navigation a:hover {
+    background-color: #111;
+  }
+
+  .segment{
+    /* background-color:rgb(48, 27, 63); */
+    background: rgb(48, 27, 63,0.92);
+    margin: 10px ;
+    border : 1px solid whitesmoke;
+    padding: 10px 10px 10px 10px; 
+    font-size: 17px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+  }
+.intro{
+        /* font-size: 20px; */
+        font-style: italic;
+      }
+.address{
+        /* font-size: ; */
+        color: whitesmoke;
+    }

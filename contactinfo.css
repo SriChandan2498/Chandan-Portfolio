@@ -1,0 +1,63 @@
+html{
+    background-color: #301b3f;
+    color : gold;
+    margin: auto;
+}
+
+body {
+    background-image: url('./images/contact.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+table{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    overflow-x:auto;
+    }
+
+th, td {
+    background-color: #301b3f;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(82, 72, 72);
+    border: 1px solid white;
+    }
+    
+td:hover {background-color:#3c415c;
+    }
+
+    .form{
+        padding-left: 25%;
+    }
+ul.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 1px solid white;    
+    }
+    
+    ul.navigation li{
+        float: left;
+        border: 1px solid white;
+        
+    }
+    ul.navigation li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    .navigation a:hover {
+        background-color: #111;
+    }
+
+.form iframe{
+    background-color: #301b3f;
+}
