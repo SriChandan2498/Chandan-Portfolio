@@ -1,0 +1,10 @@
+.mynavbar a
+{
+    color: gold  ;
+}
+
+.mynavbar a:hover {
+    color: #312c51;
+    font-weight: 500;
+    background-color : #e4f7d2;
+  }
