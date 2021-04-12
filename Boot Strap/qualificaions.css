@@ -1,10 +1,21 @@
 .mynavbar a
 {
-    color: gold  ;
+    color: antiquewhite  ;
 }
 
 .mynavbar a:hover {
-    color: #312c51;
+    color: antiquewhite;
     font-weight: 500;
-    background-color : #e4f7d2;
+    background-color :rgb(103, 98, 134);
+  }
+
+  body
+  {
+      color: antiquewhite;
+      background-color: rgb(49, 44, 81);
+  }
+  .mytable
+  {
+    color: antiquewhite;
+    text-align: center;
   }

@@ -4,6 +4,7 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
+        color: antiquewhite;
     }
 
 /* Height for devices larger than 576px */
@@ -18,11 +19,27 @@ body {
 } */
 .mynavbar a
 {
-    color: gold  ;
+    color: #312c51  ;
 }
 
 .mynavbar a:hover {
-    color: #312c51;
+    color: antiquewhite;
     font-weight: 500;
-    background-color : #e4f7d2;
+    background-color : #312c51;
   }
+.dp
+{
+    align-items: center;
+    border: 7.5px solid antiquewhite;
+}
+.headertext
+{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.mycontainer
+{
+    background-color: rgb(49, 44, 81, 90%) ;
+}
